@@ -5,4 +5,8 @@ Using node.js and express the Friend Finder application allows a user to take a 
 
 
 ### How to play: 
+
+- Access the application using the following urls 
+
+- The user will be directed to the home page of the application, where they will get an introduction to the application. If they decide to continue they may click on the "Take Survey" button. 
   
