@@ -8,5 +8,9 @@ Using node.js and express the Friend Finder application allows a user to take a 
 
 - Access the application using the following urls 
 
-- The user will be directed to the home page of the application, where they will get an introduction to the application. If they decide to continue they may click on the "Take Survey" button. 
-  
+- Users will be directed to the home page of the application. If they decide to continue they may click on the "Take Survey" button. 
+            
+  <img src="assets/images/friend-finder-1.png"> 
+
+- 
+
