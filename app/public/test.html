@@ -1,0 +1,177 @@
+<html><head>
+    <title>Sample Code</title>
+<script id="fs_fee1953839dc437baf8e570e04fc305a_script" src="https://platform.fatsecret.com/js/Default.aspx?pg=home&amp;key=a8abdcd07de245fbb88c930cb2019b79&amp;uDate=1580783759706&amp;nonce=imOK4ygRjq&amp;sep=fs_fee1953839dc437baf8e570e04fc305a&amp;v_an=31&amp;v_at=true"></script></head>
+<body>
+    <div style="width:500px;margin:0 auto;">
+        <script src="//platform.fatsecret.com/js?key=a8abdcd07de245fbb88c930cb2019b79&amp;auto_load=true"></script><link type="text/css" rel="stylesheet" href="https://platform.fatsecret.com/js/static/css/all.css"><link type="text/css" rel="stylesheet" href="https://platform.fatsecret.com/js/static/css/themes/blue.css"><script type="text/javascript" src="https://platform.fatsecret.com/js/static/script/final.js"></script><div class="fatsecret_container" id="fatsecret_container">
+<table id="fatsecret_nav" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td id="fatsecret_nav_1" width="20%" class="fatsecret_nav_highlight"><a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;home&quot;);">Home</a></td><td id="fatsecret_nav_2" width="20%"><a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;food_entries.edit&quot;);">Food Diary</a></td><td id="fatsecret_nav_4" width="20%"><a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;exercise_entries.edit&quot;);">Exercise Diary</a></td><td id="fatsecret_nav_16" width="20%"><a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;weights.get&quot;);">Weight History</a></td><td id="fatsecret_nav_8" width="20%"><a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;calendar.get_month&quot;);">Diet Calendar</a></td>
+</tr>
+</tbody></table>
+
+
+<div id="fatsecret_appTitle" class="fatsecret_heading">My Diet</div>
+<div class="fatsecret_subheading fatsecret_home_heading">Food Search</div>
+<div id="fatsecret_search">
+<div class="fatsecret_home_search">
+<form name="search" style="margin:0">
+<input class="fatsecret_home_search_input" name="food" id="name" onkeydown="return search_downed(event); return false;">
+<input class="fatsecret_button" type="button" value="Search" onclick="fatsecret.replaceCanvas(&quot;foods.search&quot;, {search_expression: document.forms.search.food.value, date: &quot;18295&quot;})">
+</form>
+</div>
+<script type="text/javascript">
+function search_downed(event){
+if(event.keyCode == 13){
+fatsecret.replaceCanvas("foods.search", {search_expression: document.forms.search.food.value, date: 18295});
+return false;
+}
+return true;
+}
+</script>
+
+<script type="text/javascript">
+function search_downed(event){
+if(event.keyCode == 13){
+fatsecret.replaceCanvas("foods.search", {search_expression: document.forms.search.food.value, date: 18295});
+return false;
+}
+return true;
+}
+</script></div>
+<div class="fatsecret_subheading fatsecret_home_heading">My Diet Calendar</div>
+<table class="fatsecret_home_summary" cellpadding="0" cellspacing="0">
+<tbody><tr class="fatsecret_home_header">
+<td>Today:</td>
+<td>Yesterday:</td>
+</tr>
+<tr>
+<td>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="fatsecret_home_summary_label">Food</td>
+<td><span id="fatsecret_todayskcaleaten">
+
+<a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;food_entries.edit&quot;, {date: 18295})">
+add entry
+</a>
+</span></td>
+</tr>
+</tbody></table>
+</td>
+<td>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="fatsecret_home_summary_label">Food</td>
+<td><span id="fatsecret_yesturdayskcaleaten">
+
+<a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;food_entries.edit&quot;, {date: 18294})">
+add entry
+</a>
+</span></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="fatsecret_home_summary_label">Activity</td>
+<td><span id="fatsecret_todayskcalburned">
+
+<a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;exercise_entries.edit&quot;, {date: 18295})">
+add entry
+</a>
+</span></td>
+</tr>
+</tbody></table>
+</td>
+<td>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="fatsecret_home_summary_label">Activity</td>
+<td><span id="fatsecret_yesturdayskcalburned">
+
+<a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;exercise_entries.edit&quot;, {date: 18294})">
+add entry
+</a>
+</span></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="right">
+<a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;calendar.get_month&quot;, {date: 18295})">more...</a>
+</td>
+</tr>
+</tbody></table>
+<div class="fatsecret_subheading fatsecret_home_heading">My Weight History</div>
+<table cellpadding="0" cellspacing="0" class="fatsecret_home_summary">
+<tbody><tr>
+<td class="fatsecret_home_summary_label">Start Weight:</td>
+<td><div id="fatsecret_startweight">
+-
+
+</div></td>
+</tr>
+<tr>
+<td class="fatsecret_home_summary_label">Current Weight:</td>
+<td><div id="fatsecret_currentweight">
+-
+
+</div></td>
+</tr>
+<tr>
+<td class="fatsecret_home_summary_label">Goal Weight:</td>
+<td><div id="fatsecret_goalweight">
+-
+
+</div></td>
+</tr>
+<tr>
+<td colspan="2" align="right">
+<div id="fatsecret_weighinlink">
+
+<a href="javascript:void(0)" onclick="fatsecret.replaceCanvas(&quot;profile.sign_in&quot;, {backurl: &quot;home&quot;, date: 18295})">weigh in</a>
+
+
+</div>
+</td>
+</tr>
+</tbody></table>
+
+<script type="text/javascript">
+document.getElementById('fatsecret_appTitle').innerHTML = fatsecret.variables.appTitle;
+fatsecret.addRef("search", "fatsecret_search");
+fatsecret.addRef("todayskcaleaten", "fatsecret_todayskcaleaten");
+fatsecret.addRef("todayskcalburned", "fatsecret_todayskcalburned");
+fatsecret.addRef("yesturdayskcaleaten", "fatsecret_yesturdayskcaleaten");
+fatsecret.addRef("yesturdayskcalburned", "fatsecret_yesturdayskcalburned");
+fatsecret.addRef("startweight", "fatsecret_startweight");
+fatsecret.addRef("currentweight", "fatsecret_currentweight");
+fatsecret.addRef("goalweight", "fatsecret_goalweight");
+fatsecret.addRef("weighinlink", "fatsecret_weighinlink");
+</script>
+<script type="text/javascript">
+document.getElementById('fatsecret_appTitle').innerHTML = fatsecret.variables.appTitle;
+fatsecret.addRef("search", "fatsecret_search");
+fatsecret.addRef("todayskcaleaten", "fatsecret_todayskcaleaten");
+fatsecret.addRef("todayskcalburned", "fatsecret_todayskcalburned");
+fatsecret.addRef("yesturdayskcaleaten", "fatsecret_yesturdayskcaleaten");
+fatsecret.addRef("yesturdayskcalburned", "fatsecret_yesturdayskcalburned");
+fatsecret.addRef("startweight", "fatsecret_startweight");
+fatsecret.addRef("currentweight", "fatsecret_currentweight");
+fatsecret.addRef("goalweight", "fatsecret_goalweight");
+fatsecret.addRef("weighinlink", "fatsecret_weighinlink");
+</script><div>
+<div class="fatsecret_footer">
+<a target="_blank" title="Powered by FatSecret" href="https://www.fatsecret.com/"><img border="0" src="https://platform.fatsecret.com/js/static/images/powered_by_fatsecret.svg"></a>
+<input id="fatsecret_footer" type="hidden">
+</div>
+<script>fatsecret.svrDt = "18295";</script>
+<script type="text/javascript">fatsecret.svrDt = "18295";</script></div></div>
+    </div>
+
+</body></html>
