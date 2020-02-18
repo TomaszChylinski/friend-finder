@@ -12,7 +12,7 @@ Using node.js and express the Friend Finder application allows a user to take a 
             
   <img src="app/assets/images/friend-finder-1.jpg"> 
 
-- Once on the user-survey page, users will have to input their name and a source to an image file, in addition they will be asked to answer nine questions that best relate to them. 
+- Once on the user-survey page, users will have to input their name and a source to an image file, in addition they will be asked to answer nine questions that best relate to them.
 
   <img src="app/assets/images/friend-finder-2.png"> 
 
